@@ -61,7 +61,28 @@
         <div class="hero-text">
           <h1>100% Job Guaranteed Graphic Design Course.</h1>
           <p style="text-align: justify;">Start your journey of being a Graphic Designer with TGC, Pro level training by industrial trainers and with Placement.</p>
-          <a href="#" class="btn"><span>Apply Now</span></a>
+          <!-- Popup 1 -->
+          <button type="button" id="openPopup" class="btn"><span>Apply Now</span></button>
+          <!-- Overlay -->
+          <div id="overlay" class="overlay"></div>
+          <!-- Popup -->
+          <div id="popupForm" class="popup">
+            <span class="close">&times;</span>
+            <!-- form 1 -->
+            <form id="form" action="Assets/php/applynow.php" method="post">
+                <h2>Apply Now</h2>
+                <div class="apply-inputs">
+                    <input type="hidden" name="formName" value="Graphic Design - Apply now - Faridabad">
+                    <input type="text" placeholder="Name" id="name" name="name" autocomplete="off">
+                    <div class="error" id="nameError"></div>
+                    <input type="email" placeholder="Email" id="email" name="email" autocomplete="off">
+                    <div class="error" id="emailError"></div>
+                    <input type="tel" placeholder="Phone" id="phone" name="phone" autocomplete="off">
+                    <div class="error" id="phoneError"></div>
+                </div>
+                <button class="pop" type="submit" name="btn-submit" value="Submit">Submit</button>
+            </form>
+        </div>
           <div class="rating">
             <h4>Google 4.8 star icon</h4>
             <h5>4.8 OUT OF 5 rating</h5>
@@ -76,9 +97,11 @@
         </div>
       </div>
       <div class="col-lg-5">
-        <form role="form" class="get-a-quote" id="contact-form" method="post">
+        <!-- form 6 -->
+        <form id="form6" role="form" class="get-a-quote" id="contact-form" method="post" action="Assets/php/getaquote.php">
+          <!-- <input type="hidden" name="formName" value="Graphic Design - Get a quote - Faridabad"> -->
           <div>
-            <h3>Get a Quote</h3>
+            <h3 class="pb-3">Get a Quote</h3>
             <!-- <h6>Marketing Business campaign</h6> -->
           </div>
           <div class="group-img">
@@ -87,7 +110,8 @@
               <path d="M13.6569 10.3431C12.7855 9.47181 11.7484 8.82678 10.6168 8.43631C11.8288 7.60159 12.625 6.20463 12.625 4.625C12.625 2.07478 10.5502 0 8 0C5.44978 0 3.375 2.07478 3.375 4.625C3.375 6.20463 4.17122 7.60159 5.38319 8.43631C4.25163 8.82678 3.2145 9.47181 2.34316 10.3431C0.832156 11.8542 0 13.8631 0 16H1.25C1.25 12.278 4.27803 9.25 8 9.25C11.722 9.25 14.75 12.278 14.75 16H16C16 13.8631 15.1678 11.8542 13.6569 10.3431ZM8 8C6.13903 8 4.625 6.486 4.625 4.625C4.625 2.764 6.13903 1.25 8 1.25C9.86097 1.25 11.375 2.764 11.375 4.625C11.375 6.486 9.86097 8 8 8Z" fill="black"/>
               </g>
               </svg></i>
-              <input type="text" name="Name" placeholder="Full Name" required>
+              <input type="text" name="name" id="name6" placeholder="Full Name" autocomplete="off">
+              <div class="error" id="nameError6"></div>
           </div>
           <div class="group-img">
             <i><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +120,8 @@
               </g>
             </svg>
           </i>
-              <input type="email" name="Email Address" placeholder="Email Address" required>
+              <input type="email" name="email" id="email6" placeholder="Email Address" autocomplete="off">
+              <div class="error" id="emailError6"></div>
           </div>
           <div class="group-img">
             <i>
@@ -108,7 +133,8 @@
                 </g>
               </svg>
             </i>
-              <input type="number" name="Phone No" placeholder="Phone No" required>
+              <input type="number" name="phone" id="phone6" placeholder="Phone No" autocomplete="off">
+              <div class="error" id="phoneError6"></div>
           </div>
           <!-- <p>Preferred Consult Method: </p>
           <div class="d-flex align-items-center">
@@ -121,7 +147,7 @@
                   <label for="css">In-Office</label><br>
               </div>
           </div> -->
-          <button type="submit" class="btn"><span>Start Free Trial</span></button>
+          <button type="submit" class="btn" name="btn-submit" value="Submit"><span>Start Free Trial</span></button>
         </form>
       </div>
     </div>
@@ -456,7 +482,28 @@
             <li>Assured Portfolio</li>
             <li>Placement Assistance</li>
           </ul>
-          <a href="#" class="btn">Inquire Now</a>
+          <!-- Popup 2 -->
+          <a id="openPopup2" class="btn">Inquire Now</a>
+          <!-- Overlay -->
+          <div id="overlay2" class="overlay"></div>
+          <!-- Popup -->
+          <div id="popupForm2" class="popup">
+              <span class="close">&times;</span>
+              <!-- form 2 -->
+              <form id="form2" action="Assets/php/inquirenow.php" method="post">
+                  <h2>Inquire Now</h2>
+                  <div class="apply-inputs">
+                      <input type="hidden" name="formName" value="Graphic Design - Inquire now - Faridabad">
+                      <input type="text" placeholder="Name" id="name2" name="name" autocomplete="off">
+                      <div class="error" id="nameError2"></div>
+                      <input type="email" placeholder="Email" id="email2" name="email" autocomplete="off">
+                      <div class="error" id="emailError2"></div>
+                      <input type="tel" placeholder="Phone" id="phone2" name="phone" autocomplete="off">
+                      <div class="error" id="phoneError2"></div>
+                  </div>
+                  <button class="pop" type="submit" name="btn-submit" value="Submit">Submit</button>
+              </form>
+          </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
@@ -469,7 +516,28 @@
             <li>Assured Portfolio</li>
             <li>Placement Assistance</li>
           </ul>
-          <a href="#" class="btn">Inquire Now</a>
+          <!-- Popup 3 -->
+          <a id="openPopup3" class="btn">Inquire Now</a>
+          <!-- Overlay -->
+          <div id="overlay3" class="overlay"></div>
+          <!-- Popup -->
+          <div id="popupForm3" class="popup">
+              <span class="close">&times;</span>
+              <!-- form 3 -->
+              <form id="form3" action="Assets/php/inquirenow.php" method="post">
+                  <h2>Inquire Now</h2>
+                  <div class="apply-inputs">
+                      <input type="hidden" name="formName" value="Graphic Design - Inquire now - Faridabad">
+                      <input type="text" placeholder="Name" id="name3" name="name" autocomplete="off">
+                      <div class="error" id="nameError3"></div>
+                      <input type="email" placeholder="Email" id="email3" name="email" autocomplete="off">
+                      <div class="error" id="emailError3"></div>
+                      <input type="tel" placeholder="Phone" id="phone3" name="phone" autocomplete="off">
+                      <div class="error" id="phoneError3"></div>
+                  </div>
+                  <button class="pop" type="submit" name="btn-submit" value="Submit">Submit</button>
+              </form>
+          </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
@@ -482,7 +550,28 @@
             <li>Assured Portfolio</li>
             <li>Placement Assistance</li>
           </ul>
-          <a href="#" class="btn">Inquire Now</a>
+          <!-- Popup 4 -->
+          <a id="openPopup4" class="btn">Inquire Now</a>
+          <!-- Overlay -->
+          <div id="overlay4" class="overlay"></div>
+          <!-- Popup -->
+          <div id="popupForm4" class="popup">
+              <span class="close">&times;</span>
+              <!-- form 4 -->
+              <form id="form4" action="Assets/php/inquirenow.php" method="post">
+                  <h2>Inquire Now</h2>
+                  <div class="apply-inputs">
+                      <input type="hidden" name="formName" value="Graphic Design - Inquire now - Faridabad">
+                      <input type="text" placeholder="Name" id="name4" name="name" autocomplete="off">
+                      <div class="error" id="nameError4"></div>
+                      <input type="email" placeholder="Email" id="email4" name="email" autocomplete="off">
+                      <div class="error" id="emailError4"></div>
+                      <input type="tel" placeholder="Phone" id="phone4" name="phone" autocomplete="off">
+                      <div class="error" id="phoneError4"></div>
+                  </div>
+                  <button class="pop" type="submit" name="btn-submit" value="Submit">Submit</button>
+              </form>
+          </div>
         </div>
       </div>
     </div>
@@ -694,7 +783,28 @@
     <div class="heading">
       <h2>Start Your Dream Career in <span>Graphic Design</span></h2>
       <p>Take your first step by calling our course experts and get to know more about it.</p>
-      <a href="#" class="btn">Apply Now</a>
+      <!-- Popup 5 -->
+      <a id="openPopup5" class="btn">Apply Now</a>
+       <!-- Overlay -->
+       <div id="overlay5" class="overlay"></div>
+       <!-- Popup -->
+       <div id="popupForm5" class="popup">
+           <span class="close">&times;</span>
+           <!-- form 5 -->
+           <form id="form5" action="Assets/php/applynow.php" method="post">
+               <h2 style="color: black; padding-bottom: 0;">Apply Now</h2>
+               <div class="apply-inputs">
+                   <input type="hidden" name="formName" value="Graphic Design - Apply now - Faridabad">
+                   <input type="text" placeholder="Name" id="name5" name="name" autocomplete="off">
+                   <div class="error" id="nameError5"></div>
+                   <input type="email" placeholder="Email" id="email5" name="email" autocomplete="off">
+                   <div class="error" id="emailError5"></div>
+                   <input type="tel" placeholder="Phone" id="phone5" name="phone" autocomplete="off">
+                   <div class="error" id="phoneError5"></div>
+               </div>
+               <button class="pop" type="submit" name="btn-submit" value="Submit">Submit</button>
+           </form>
+       </div>
     </div>
     <div class="row">
       <div class="col-lg-4 col-md-6">
