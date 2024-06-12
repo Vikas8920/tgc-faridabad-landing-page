@@ -500,14 +500,41 @@ ul.check-list li {
 /* 10. clients-slider */
 .clients-slider .item img {
     width: 210px;
-    filter: contrast(0.0);
+    height: 130px!important;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 1px solid black;
+    /* filter: contrast(0.0); */
+}
+.clients-slider .hindustan img{
+    width: 190px!important;
+    height: 130px!important;
+    padding: 10px;
+}
+.clients-slider .india img{
+    width: 190px!important;
+    height: 130px!important;
+}
+.clients-slider .rediffusion img{
+    width: 190px!important;
+    height: 130px!important;
+}
+.clients-slider .aegis img{
+    width: 190px!important;
+    height: 130px!important;
+}
+.clients-slider .deloitte img{
+    width: 190px!important;
+    height: 130px!important;
+    object-fit: contain;
+    padding: 10px;
 }
 .clients-slider .owl-dots {
     display: none;
 }
-.clients-slider .item img:hover {
+/* .clients-slider .item img:hover {
     filter: contrast(1);
-}
+} */
 .recommended {
     text-align: center;
 }
@@ -920,13 +947,7 @@ ul.check-list li {
 .pricing-plan-style {
     border: 3px solid #000;
     border-radius: 20px;
-    padding: 40px;
-    background-color: #ffffff40;
-}
-.pricing-plan-style {
-    border: 3px solid #000;
-    border-radius: 20px;
-    padding: 50px;
+    padding: 25px;
     background-color: #ffffff40;
     position: relative;
     width: 94%;
@@ -938,11 +959,6 @@ ul.check-list li {
     padding-top: 30px;
     padding-bottom: 20px;
     color: #000;
-}
-.pricing-plan-style h5 {
-    font-weight: bold;
-    font-size: 60px;
-    padding-bottom: 27px;
 }
 .pricing-plan-style ul li:before {
     width: 12px;
@@ -1045,18 +1061,13 @@ ul.check-list li {
 }
 .title {
     text-align: start;
-    padding: 20px 57px;
-    padding-right: 0;
-    padding-right: 0;
+    padding: 10px 0 10px 57px;
     color: black;
-    font-size: 22px;
 }
 .content {
     background-color: #fff;
-    padding: 29px 39px;
-    padding-top: 20px;
+    padding: 10px;
     margin-bottom: 20px;
-    padding-right: 20px;
     border: 3px solid #108a00;
     width: 96%;
     margin-left: auto;
@@ -1065,7 +1076,7 @@ ul.check-list li {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-top: -15px;
-    padding-top: 36px;
+    padding-top: 20px;
 }
 a.heading{
     width: 100%;
@@ -1083,7 +1094,7 @@ a.heading{
     transform: rotate(90deg);
 }
 .accordion-item {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .accordion-item {
     background-color: #fff;
@@ -1108,6 +1119,7 @@ a.heading{
 }
 .questions-img img {
     border-radius: 30px;
+    height: 730px;
 }
 /* 18. blog style */
 .blog-style > a {
