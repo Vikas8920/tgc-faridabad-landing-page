@@ -7,7 +7,7 @@ if(isset($_POST['btn-submit'])){
 
   // Send email to info@tgcindia.com
   $to = "info@tgcfaridabad.com, info@tgcindia.com, faridabad.tgc@gmail.com";
-  $subject = "New Inquiry Form of 'Graphic Design - Get a Quote Form' From TGC Faridabad";
+  $subject = "New Inquiry Form of 'Graphic Design - Get Fee Details Form' From TGC Faridabad";
   $headers = "From: $email" . "\r\n" . "Reply-To: $email" . "\r\n" . "X-Mailer: PHP/" . phpversion();
   $mail_body = "Name: $name\nPhone: $phone\nEmail: $email";
   mail($to, $subject, $mail_body, $headers);

@@ -305,7 +305,7 @@ img.shaps-line {
 /* 05. heading */
 .heading {
     text-align: center;
-    width: 59%;
+    width: 80%;
     margin: auto;
     padding-bottom: 40px;
 }
@@ -340,7 +340,7 @@ img.shaps-line {
     display: block;
 }
 .count-text {
-    width: 40%;
+    width: 65%;
     z-index: 11;
 }
 sub {
@@ -395,7 +395,7 @@ sub {
     text-align: center;
     border: 5px solid;
     border-radius: 20px;
-    padding: 25px;
+    padding: 22px;
     padding-bottom: 0;
     z-index: 11;
     margin-bottom: 46px;
@@ -499,29 +499,32 @@ ul.check-list li {
 }
 /* 10. clients-slider */
 .clients-slider .item img {
-    width: 210px;
-    height: 130px!important;
     border-radius: 10px;
-    object-fit: cover;
-    border: 1px solid black;
-    /* filter: contrast(0.0); */
+    filter: contrast(0.0);
+}
+.clients-slider .toi img{
+    width: 190px!important;
+    padding: 10px;
 }
 .clients-slider .hindustan img{
-    width: 190px!important;
     height: 130px!important;
-    padding: 10px;
 }
 .clients-slider .india img{
     width: 190px!important;
-    height: 130px!important;
+    height: 100px!important;
+    padding-top: 10px;
+    margin-top: 5px;
 }
 .clients-slider .rediffusion img{
     width: 190px!important;
     height: 130px!important;
+    margin-top: -20px;
 }
-.clients-slider .aegis img{
+.clients-slider .dentsu img{
     width: 190px!important;
     height: 130px!important;
+    object-fit: contain;
+    padding: 10px;
 }
 .clients-slider .deloitte img{
     width: 190px!important;
@@ -532,9 +535,9 @@ ul.check-list li {
 .clients-slider .owl-dots {
     display: none;
 }
-/* .clients-slider .item img:hover {
+.clients-slider .item img:hover {
     filter: contrast(1);
-} */
+}
 .recommended {
     text-align: center;
 }
@@ -1130,6 +1133,7 @@ a.heading{
     color: #000;
     background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px 95%/0px 1px no-repeat;
     transition: all 500ms ease;
+    cursor: pointer;
 }
 .blog-style > a:hover {
     background-size: 100% 1px;
@@ -1167,6 +1171,7 @@ ul.list-unstyled.blog-card__meta {
 }
 .list-unstyled a {
     color: #000;
+    cursor: pointer;
 }
 /* 19. footer */
 .footer {
@@ -1575,9 +1580,9 @@ span#progress-value i {
 #popupForm5 form .apply-inputs .error{
    transform: translateX(-120px);
 } 
-#form6 .error{
+#form100 .error{
     transform: translate(20px, -10px);
- }
+ } 
 
 @media screen and (max-width: 599px) {
     .popup{
