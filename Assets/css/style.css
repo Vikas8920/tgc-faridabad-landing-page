@@ -1122,7 +1122,8 @@ a.heading{
 }
 .questions-img img {
     border-radius: 30px;
-    height: 730px;
+    height: 760px;
+    object-fit: cover;
 }
 /* 18. blog style */
 .blog-style > a {
@@ -1591,4 +1592,18 @@ span#progress-value i {
     #popupForm5 form .apply-inputs .error{
         transform: translateX(-72px);
      }
+}
+.branch div{
+    margin-left: 205px;
+}
+.menu{
+    margin-left: 300px;
+}
+.menu ul li{
+    margin-right: 20px;
+}
+.menu ul li a{
+    color: black!important;
+    font-weight: bold;
+    font-size: 18px;
 }

@@ -15,8 +15,8 @@ jQuery(document).ready(function($){
             loop:true,
             dot:false,
             nav:false,
-            // autoplay:true,
-            // autoplayTimeout:3000,
+            autoplay:true,
+            autoplayTimeout:2000,
             responsive:{
                 0:{
                     items:1
@@ -203,8 +203,6 @@ window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
 
 // 6. loaded
-
-
 $(window).on('load', function () {
     $("body").addClass("page-loaded");
     ("loaded")
@@ -917,6 +915,10 @@ $("#form100").submit(function(e){
     let phoneRegex = /^\d{10}$/;
     return phoneRegex.test(phone);
   }
+
+
+
+  // Menu
 });
 
 
