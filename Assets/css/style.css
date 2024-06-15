@@ -1594,7 +1594,8 @@ span#progress-value i {
      }
 }
 .branch div{
-    margin-left: 205px;
+    text-align: center;
+    margin-left: 130px;
 }
 .menu{
     margin-left: 300px;
@@ -1606,4 +1607,44 @@ span#progress-value i {
     color: black!important;
     font-weight: bold;
     font-size: 18px;
+}
+.menu ul li a{
+    color: black!important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu ul .call a{
+    color: #108A00!important;
+}
+.navbar-toggler-icon {
+   width: 25px;
+}
+nav .container button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:focus{
+    outline: none!important;
+    box-shadow: none!important;
+}
+.mobile-call{
+    display: none;
+}
+.mobile-call a{
+    color: #108A00;
+}
+/* Social Icons */
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top: 250px;
+    right: 0;
+    display: none;
+    z-index: +999999!important;
+}
+.social .phone{
+    border-radius: 4px;
 }
