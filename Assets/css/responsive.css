@@ -620,6 +620,9 @@
     padding-top: 40px;
     padding-bottom: 60px;
   }
+  #stickyHeader{
+    padding-top: 20px!important;
+  }
 }
 @media(max-width: 500px){
   .menu{
@@ -652,9 +655,9 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
-  /* .navbar>.container{
+  .navbar>.container{
     padding: 0 5px;
-  } */
+  }
   /* Social Icons */
   .social{
     display: flex;
@@ -668,6 +671,9 @@
   .hero-section {
     padding-top: 40px;
     padding-bottom: 60px;
+  }
+  #stickyHeader{
+    padding-top: 20px!important;
   }
 }
 @media(max-width: 480px){
@@ -737,9 +743,9 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
-  /* .navbar>.container{
+  .navbar>.container{
     padding: 0 5px;
-  } */
+  }
   /* Social Icons */
   .social{
     display: flex;
@@ -753,6 +759,9 @@
   .hero-section {
     padding-top: 40px;
     padding-bottom: 60px;
+  }
+  #stickyHeader{
+    padding-top: 20px!important;
   }
 }
 @media(max-width: 450px){
@@ -841,9 +850,9 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
-  /* .navbar>.container{
+  .navbar>.container{
     padding: 0 5px;
-  } */
+  }
   /* Social Icons */
   .social{
     display: flex;
@@ -857,6 +866,9 @@
   .hero-section {
     padding-top: 40px;
     padding-bottom: 60px;
+  }
+  #stickyHeader{
+    padding-top: 20px!important;
   }
 }
 @media(max-width: 410px){
@@ -919,5 +931,8 @@
   .hero-section {
     padding-top: 40px;
     padding-bottom: 60px;
+  }
+  #stickyHeader{
+    padding-top: 20px!important;
   }
 }
