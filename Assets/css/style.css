@@ -1640,7 +1640,7 @@ button:focus{
     flex-direction: column;
     gap: 10px;
     position: fixed;
-    top: 250px;
+    top: 350px;
     right: 0;
     display: none;
     z-index: +999999!important;
