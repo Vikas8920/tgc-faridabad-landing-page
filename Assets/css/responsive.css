@@ -449,6 +449,10 @@
   .social img{
     width: 40px;
   }
+  .hero-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 @media(max-width: 768px){
   .menu{
@@ -488,7 +492,7 @@
     display: block;
   }
   .hero-section {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 60px;
   }
   .team-text {
@@ -531,6 +535,10 @@
   }
   .social img{
     width: 40px;
+  }
+  .hero-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 @media(max-width: 576px){
@@ -608,6 +616,10 @@
   .heading2{
     font-size: 35px;
   }
+  .hero-section {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
 }
 @media(max-width: 500px){
   .menu{
@@ -652,6 +664,10 @@
   }
   .heading2{
     font-size: 35px;
+  }
+  .hero-section {
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 }
 @media(max-width: 480px){
@@ -733,6 +749,10 @@
   }
   .heading2{
     font-size: 35px;
+  }
+  .hero-section {
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 }
 @media(max-width: 450px){
@@ -834,6 +854,10 @@
   .heading2{
     font-size: 35px;
   }
+  .hero-section {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
 }
 @media(max-width: 410px){
   .menu{
@@ -891,5 +915,9 @@
   }
   .heading2{
     font-size: 35px;
+  }
+  .hero-section {
+    padding-top: 30px;
+    padding-bottom: 60px;
   }
 }
