@@ -129,7 +129,7 @@
     line-height: 70px;
   }
   .hero-section {
-    padding-top: 80px;
+    padding-top: 90px;
     padding-bottom: 100px;
   }
   .copyright {
@@ -492,7 +492,7 @@
     display: block;
   }
   .hero-section {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
   .team-text {
@@ -537,7 +537,7 @@
     width: 40px;
   }
   .hero-section {
-    padding-top: 60px;
+    padding-top: 70px;
     padding-bottom: 60px;
   }
 }
@@ -617,7 +617,7 @@
     font-size: 35px;
   }
   .hero-section {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 }
@@ -652,9 +652,9 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
-  .navbar>.container{
+  /* .navbar>.container{
     padding: 0 5px;
-  }
+  } */
   /* Social Icons */
   .social{
     display: flex;
@@ -666,7 +666,7 @@
     font-size: 35px;
   }
   .hero-section {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 }
@@ -737,9 +737,9 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
-  .navbar>.container{
+  /* .navbar>.container{
     padding: 0 5px;
-  }
+  } */
   /* Social Icons */
   .social{
     display: flex;
@@ -751,7 +751,7 @@
     font-size: 35px;
   }
   .hero-section {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 }
@@ -841,9 +841,9 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
-  .navbar>.container{
+  /* .navbar>.container{
     padding: 0 5px;
-  }
+  } */
   /* Social Icons */
   .social{
     display: flex;
@@ -855,7 +855,7 @@
     font-size: 35px;
   }
   .hero-section {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 }
@@ -917,7 +917,7 @@
     font-size: 35px;
   }
   .hero-section {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
   }
 }
